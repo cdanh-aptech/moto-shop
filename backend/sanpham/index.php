@@ -17,7 +17,7 @@ $sql = <<<EOT
     JOIN `loaisanpham` lsp ON sp.lsp_ma = lsp.lsp_ma
     JOIN `nhasanxuat` nsx ON sp.nsx_ma = nsx.nsx_ma
     LEFT JOIN `khuyenmai` km ON sp.km_ma = km.km_ma
-    ORDER BY sp.sp_ma DESC
+    ORDER BY sp.sp_ma ASC
 EOT;
 
 // 3. Thực thi câu truy vấn SQL để lấy về dữ liệu Limit để sử dụng phân trang (Pagination)
