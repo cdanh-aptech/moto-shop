@@ -27,8 +27,8 @@ if(isset($_POST['btnGoiLoiNhan']))
         $mail->isSMTP();                                       // Set mailer to use SMTP
         $mail->Host = 'smtp.gmail.com';                        // Specify main and backup SMTP servers
         $mail->SMTPAuth = true;                                // Enable SMTP authentication
-        $mail->Username = 'tester.mail.nentang@gmail.com';     // SMTP username
-        $mail->Password = 'cumauahhoyahpxzl';                  // SMTP password
+        $mail->Username = 'cdanha18037@cusc.ctu.edu.vn';     // SMTP username
+        $mail->Password = 'anh@cu$c';                  // SMTP password
         $mail->SMTPSecure = 'tls';                             // Enable TLS encryption, `ssl` also accepted
         $mail->Port = 587;                                     // TCP port to connect to
         $mail->CharSet = "UTF-8";
@@ -43,8 +43,8 @@ if(isset($_POST['btnGoiLoiNhan']))
         );
 
         //Recipients
-        $mail->setFrom('tester.mail.nentang@gmail.com', 'Test Mail');
-        $mail->addAddress('phucuong@ctu.edu.vn');                // Add a recipient
+        $mail->setFrom('cdanha18037@cusc.ctu.edu.vn', 'Liên hệ');
+        $mail->addAddress('cdanha18037@cusc.ctu.edu.vn');                // Add a recipient
         $mail->addReplyTo($email);
         // $mail->addCC('cc@example.com');
         // $mail->addBCC('bcc@example.com');
