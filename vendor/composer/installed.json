@@ -1,5 +1,4 @@
-[
-    {
+[{
         "name": "phpmailer/phpmailer",
         "version": "v6.0.7",
         "version_normalized": "6.0.7.0",
@@ -48,8 +47,7 @@
         "license": [
             "LGPL-2.1"
         ],
-        "authors": [
-            {
+        "authors": [{
                 "name": "Jim Jagielski",
                 "email": "jimjag@gmail.com"
             },
@@ -108,8 +106,7 @@
         "license": [
             "MIT"
         ],
-        "authors": [
-            {
+        "authors": [{
                 "name": "Symfony Community",
                 "homepage": "https://symfony.com/contributors"
             },
@@ -168,8 +165,7 @@
         "license": [
             "MIT"
         ],
-        "authors": [
-            {
+        "authors": [{
                 "name": "Nicolas Grekas",
                 "email": "p@tchwork.com"
             },
@@ -226,8 +222,7 @@
         "license": [
             "MIT"
         ],
-        "authors": [
-            {
+        "authors": [{
                 "name": "Nicolas Grekas",
                 "email": "p@tchwork.com"
             },
@@ -306,8 +301,7 @@
         "license": [
             "MIT"
         ],
-        "authors": [
-            {
+        "authors": [{
                 "name": "Nicolas Grekas",
                 "email": "p@tchwork.com"
             },
@@ -329,12 +323,12 @@
         "version_normalized": "2.11.3.0",
         "source": {
             "type": "git",
-            "url": "https://github.com/twigphp/Twig.git",
+            "url": "https://github.com/twigmotor-shop.git",
             "reference": "699ed2342557c88789a15402de5eb834dedd6792"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/twigphp/Twig/zipball/699ed2342557c88789a15402de5eb834dedd6792",
+            "url": "https://api.github.com/repos/twigmotor-shop/zipball/699ed2342557c88789a15402de5eb834dedd6792",
             "reference": "699ed2342557c88789a15402de5eb834dedd6792",
             "shasum": ""
         },
@@ -368,8 +362,7 @@
         "license": [
             "BSD-3-Clause"
         ],
-        "authors": [
-            {
+        "authors": [{
                 "name": "Fabien Potencier",
                 "email": "fabien@symfony.com",
                 "homepage": "http://fabien.potencier.org",
