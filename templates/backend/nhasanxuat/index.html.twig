@@ -24,7 +24,7 @@ Danh sách Nhà sản xuất
         <tr>
             <th>Mã Nhà sản xuất</th>
             <th>Tên Nhà sản xuất</th>
-            <th>Mô tả Nhà sản xuất</th>
+            <th>Logo nhà sản xuất</th>
             <th>Hành động</th>
         </tr>
     </thead>
@@ -33,7 +33,10 @@ Danh sách Nhà sản xuất
         <tr>
             <td>{{ nhasanxuat.nsx_ma }}</td>
             <td>{{ nhasanxuat.nsx_ten }}</td>
-            <td></td>
+            <td>
+                <img src="/motor-shop/assets/uploads/logo/{{nhasanxuat.nsx_ten}}.png" width="80px" height="80px"/>
+                
+            </td>
             <td>
                 <!-- Nút sửa, bấm vào sẽ hiển thị form hiệu chỉnh thông tin dựa vào khóa chính `nsx_ma` -->
                 <a href="edit?nsx_ma={{ nhasanxuat.nsx_ma }}" class="btn btn-warning">
